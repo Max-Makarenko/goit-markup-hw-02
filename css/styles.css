@@ -16,23 +16,29 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
 
 a {
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+
 /* HEADER/ШАПКА САЙТА */
 
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .logo-dark {
-  color: black;
+  color: #000;
 }
 
 .logo-white {
@@ -40,3 +46,9 @@ a {
 }
 
 /* FOOTER/ПОДВАЛ САЙТА */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* PORTFOLIO/Секция Портфолио */
