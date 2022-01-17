@@ -1,11 +1,28 @@
+/* root 
+  Основной цвет : #ffffff;
+  Цвет героя и подвала: #2f303a;
+  Цвет иконки команды: #f5f4fa;
+  Основной цвет текста: #757575;
+  Второй цвет текста(заголовки): #212121;
+  Основной акцентированный цвет: #2196f3;
+  Цвет при ховере на кнопке: #188CE8;
+  */
+
 :root {
+  --basic-white-color: #ffffff;
+  --background-color-black: #2f303a;
+  --background-color-grey: #f5f4fa;
+  --basic-text-color: #757575;
+  --second-text-color: #212121;
+  --first-accent-color: #2196f3;
+  --second-accent-color: #188ce8;
 }
 
 /* BODY/ТЕЛО */
 body {
-  background-color: #fff;
-  color: #757575;
-  font-family: 'Roboto', sans-serif;
+  background-color: var(--basic-white-color);
+  color: var(--basic-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 /* Скрытый титул */
@@ -30,7 +47,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .section {
@@ -53,13 +70,13 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--first-accent-color);
 }
 .logo-dark {
   color: #000;
 }
 .logo-light {
-  color: #fff;
+  color: var(--basic-white-color);
 }
 
 .site-nav-link {
@@ -69,11 +86,11 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .current {
-  color: #2196f3;
+  color: var(--first-accent-color);
 }
 
 .contacts-link {
@@ -83,7 +100,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .contacts-link:hover,
@@ -92,12 +109,12 @@ ul {
 .site-nav-link:focus,
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
-  color: #2196f3;
+  color: var(--first-accent-color);
 }
 /* HERO/ГЕРОЙ СЕКЦИЯ №1 */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-black);
 }
 
 .hero-title {
@@ -108,7 +125,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--basic-white-color);
 }
 
 .hero-button {
@@ -119,14 +136,14 @@ ul {
   letter-spacing: 0.06em;
 
   cursor: pointer;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--basic-white-color);
+  background: var(--first-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--second-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -139,7 +156,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .features-text {
@@ -166,7 +183,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .team-text {
@@ -175,17 +192,17 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--background-color-grey);
 }
 
 /* FOOTER/ПОДВАЛ САЙТА */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-black);
 }
 
 address {
@@ -194,7 +211,6 @@ address {
 
 .footer-contacts-link {
   font-family: Roboto;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,7 +218,7 @@ address {
 }
 
 .white {
-  color: #ffffff;
+  color: var(--basic-white-color);
 }
 
 /* PORTFOLIO/Секция Портфолио */
@@ -221,8 +237,8 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--second-text-color);
+  background-color: var(--background-color-grey);
   border-radius: 4px;
   border: transparent;
   cursor: pointer;
@@ -230,8 +246,8 @@ address {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--basic-white-color);
+  background: var(--first-accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -249,7 +265,7 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 .projects-text {
@@ -258,5 +274,5 @@ address {
   line-height: 1.87;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--basic-text-color);
 }
