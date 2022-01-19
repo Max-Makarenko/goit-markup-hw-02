@@ -40,10 +40,9 @@ body {
 }
 /* ОДИНОЧНЫЕ КЛАССЫ */
 .title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -80,7 +79,6 @@ ul {
 }
 
 .site-nav-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -94,7 +92,6 @@ ul {
 }
 
 .contacts-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,7 +115,6 @@ ul {
 }
 
 .hero-title {
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,7 +125,6 @@ ul {
 }
 
 .hero-button {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -150,19 +145,15 @@ ul {
 /* FEATURES/КАЧЕСТВА/СЕКЦИЯ №2 */
 
 .features-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
   color: var(--second-text-color);
 }
 
 .features-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -205,12 +196,11 @@ ul {
   background-color: var(--background-color-black);
 }
 
-address {
+.address {
   font-style: normal;
 }
 
 .footer-contacts-link {
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -230,7 +220,7 @@ address {
 
 .filter-button {
   padding: 6px 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -259,7 +249,6 @@ address {
 /* PORTFOLIO/ПРОЕКТЫ */
 
 .projects-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -269,7 +258,6 @@ address {
 }
 
 .projects-text {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
